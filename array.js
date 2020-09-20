@@ -11,7 +11,7 @@ while (R = 0) {
 // 副プログラム:Init
 function Init() {
     while ( L <= K && K <= M ) {
-        for (L = 1; L <= N; 1++) {
+        for (let L = 1; L <= N; 1++) {
             if ( L <= K ) {
                 s[L] = 1;
             }
@@ -28,7 +28,7 @@ function Next() {
     let L = 1;
     let R = -1;
     
-    while (L < N && R = -1) {
+    while ((L < N ) && (R = -1)) {
         while (s[L] = 1) {
             while(S[L + 1]) {
                 s[L] = 0;
